@@ -1,0 +1,13 @@
+#include <iostream>
+
+int main() {
+    int cont, num;
+    std::cout << "numero? ";
+    std::cin >> num;
+    cont = 1; // Inicialização
+    while (cont < 10) {
+        std::cout << num << " x " << cont << " = " << num * cont << std::endl;
+        cont++;
+    }
+    return 0;
+}
